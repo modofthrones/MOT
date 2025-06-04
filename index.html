@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Mod Of Thrones</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #0d0d0d;
+      color: #eee;
+    }
+
+    header {
+      background: #1a1a1a;
+      text-align: center;
+      padding: 20px 0;
+    }
+
+    header img {
+      width: 200px;
+      max-width: 90%;
+      height: auto;
+    }
+
+    .mods-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 20px;
+      padding: 30px;
+    }
+
+    .mod-card {
+      background: #2a2a2a;
+      border-radius: 12px;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.4);
+      overflow: hidden;
+      cursor: pointer;
+      transition: transform 0.2s, box-shadow 0.2s;
+      text-decoration: none;
+      color: #fff;
+    }
+
+    .mod-card:hover {
+      transform: scale(1.03);
+      box-shadow: 0 4px 16px rgba(255, 255, 255, 0.1);
+    }
+
+    .mod-card img {
+      width: 100%;
+      height: 160px;
+      object-fit: cover;
+    }
+
+    .mod-title {
+      padding: 12px;
+      text-align: center;
+      font-size: 18px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="mod of thrones.png" alt="Mod of Thrones Logo">
+  </header>
+
+  <div class="mods-container">
+    <a class="mod-card" href="music.html">
+      <img src="https://via.placeholder.com/300x160" alt="GoT Music disk">
+      <div class="mod-title">GoT Music Disk</div>
+    </a>
+
+    <a class="mod-card" href="paintings.html">
+      <img src="https://via.placeholder.com/300x160" alt="GoT Weapons Mod">
+      <div class="mod-title">GoT Weapons Mod</div>
+    </a>
+
+    <a class="mod-card" href="got-villages.html">
+      <img src="https://via.placeholder.com/300x160" alt="GoT Villages">
+      <div class="mod-title">GoT Villages</div>
+    </a>
+  </div>
+</body>
+</html>
